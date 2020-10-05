@@ -1,12 +1,32 @@
-## Task description ##
+# ForJavaRushPublication
+## Project Information
+This project is an example project realizing Continuous Integration (CI), Code Coverage (Codecov) and Markdown (README.md) for [JavaRush](https://javarush.ru/) [competition](https://javarush.ru/groups/posts/581-podelisjh-znanijami-poluchi-priz-novihy-konkurs-postov-ot-javarush-).
+References to my articles:
+- [Continuous Integration](https://javarush.ru/groups/posts/594-continuous-integration)
+- [Code Coverage](https://javarush.ru/groups/posts/602-codecov)
+- [Markdown](https://javarush.ru/groups/posts/612-markdown)
 
-- Implement a [GetSumOne](Calculations/Calculator.cs#L12) method to calculate the following sum $`1/1+1/2+...+1/n`$ of $`n > 0`$ elements.
-- Implement a [GetSumTwo](Calculations/Calculator.cs#L23) method to calculate the following sum $`1/(1\cdot 2)-1/(2\cdot 3)+...+(-1)^{n+1}/(n\cdot (n+1))`$ of $`n > 0`$ elements. Don't use `if`-statement and `Math.Pow`.
-- Implement a [GetSumThree](Calculations/Calculator.cs#L34) method to calculate the following sum $`1/1^5+1/2^5+...+1/n^5`$ of $`n > 0`$ elements.
-- Implement a [GetSumFour](Calculations/Calculator.cs#L45) method to calculate the following sum $`1/3^2+1/5^2+...+1/(2\cdot n + 1)^2`$ of $`n > 0`$ elements. Don't use `if`-statement.
-- Implement a [GetProductOne](Calculations/Calculator.cs#L56) method to calculate the following product $`(1+1/1^2)\cdot(1+1/2^2)\cdot...\cdot(1+1/n^2)`$ of $`n > 0`$ elements.
-- Implement a [GetSumFive](Calculations/Calculator.cs#L67) method to calculate the following sum $`-1/3+1/5+...+(-1)^n/(2\cdot n+1)`$ of $`n > 0`$ elements. Don't use `if`-statement and `Math.Pow` function.
-- Implement a [GetSumSix](Calculations/Calculator.cs#L78) method to calculate the following sum $`1!/1+2!/(1+1/2)+...+n!/(1+1/2+...+1/n)`$ of $`n > 0`$ elements, where $`n! = 1·2·3...(n-1)·n`$. 
-- Implement a [GetSumSeven](Calculations/Calculator.cs#L89) method to calculate the following sum $`\sqrt{2+\sqrt{2+...+\sqrt{2}}}`$ of $`n > 0`$-roots.
-- Implement a [GetSumEight](Calculations/Calculator.cs#L100) method to calculate the following sum $`1/sin1 + 1/(sin1+sin2)+...+1/(sin1+sin2+...+sinn)`$ of $`n > 0`$ elements. See [Math.Sin](https://docs.microsoft.com/en-us/dotnet/api/system.math.sin?view=netcore-3.1). To get the value of the argument in radians use  the following formula $`α_{rad}=π α°/180°`$.      
-*The task definitions are given in the XML-comments for this methods.*
+| Technology | Badge |
+|:-----------:|:-----:|
+| Travis CI | [![Build Status](https://travis-ci.org/qThegamEp/ForJavaRushPublication.svg?branch=master)](https://travis-ci.org/qThegamEp/ForJavaRushPublication) |
+
+## Import Information
+If you want to use this project:
+1. You have to "*clone*" on your GitHub or "*download*" this project;
+2. If you selected to "*download*" the project then start your Intellij IDEA and choose the "*Import Project*" and then choose as "*Maven*" project else if you selected to "*clone*" the project choose the "*Check out from Version Control*" and then choose "*GitHub*" and and select your repository in which you cloned this project;
+3. If your version is Java 9 then you can skip this item otherwise you have to open the "*pom.xml*" file and look for the line `<java.version>1.9</java.version>` and change the value to your version of Java;
+4. Run the project;
+5. If you want to package a jar file, then open the "*Lifecycle*" of the Maven and choose "*package*";
+
+## Implementation Information
+* **Programming Language:** Java
+* **Build System:** [Maven](https://maven.apache.org/)
+* **Automated Testing:** [JUnit4](https://junit.org/junit4/)
+* **Continuous Integration:** [Travis CI](https://travis-ci.org/)
+* **Code Coverage:** [Codecov.io](https://codecov.io/gh)
+
+## Contacts
+* **Author:** Koliadin Nikita
+* **Facebook:** [My Facebook](https://www.facebook.com/koliadin.nikita)
+* **Gmail:** qThegamEp@gmail.com
+* **JavaRush:** [My JavaRush](https://javarush.ru/users/1324097)
